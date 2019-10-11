@@ -1,11 +1,11 @@
 # Parking Lot
 
-- Clarify
-1. 3 kinds of vehicles: motorcycle (M), car (C), bus (B).
-2. 3 types of parking spots:
-  - Motorcycle spot -> M
-  - Compact spot -> M, C
-  - Large spot -> M, C
-  - Bus can park if we have 5 consecutive large spots.
+#### Clarify
+- 3 kinds of vehicles: motorcycle (M), car (C), bus (B).
+- 3 types of parking spots:
+  1. Motorcycle spot -> M
+  2. Compact spot -> M, C
+  3. Large spot -> M, C
+  4. Bus can park if we have 5 consecutive large spots.
 
-3. Multiple levels.
+- Multiple levels.
