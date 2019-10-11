@@ -15,7 +15,7 @@ class HashTable:
 		return key % self.size
 	
 	def set(self, key, value):
-		hash_index = _hash_funciton(key)
+		hash_index = self._hash_function(key)
 		for item in self.table[hash_index]:
 			if item.key == key:
 				item.value = value
